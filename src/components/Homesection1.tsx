@@ -10,7 +10,7 @@ const Homesection1 = () => {
                 <div className={styles.left}>
                     <div className={styles.about}>
                         <p>Hi, I am <span>Kiran Gadipelli</span></p>
-                        <p>Crafting full-stack websites and mobile apps is my forte! Ready to tackle all your business challenges. Open for freelance gigs. Let's make something awesome together!</p>
+                        <p>Crafting full-stack websites and mobile apps is my forte! Ready to tackle all your business challenges. Open for freelance gigs. Let\'\s make something awesome together!</p>
                     </div>
                 </div>
                 <div className={styles.right}>
