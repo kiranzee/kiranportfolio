@@ -6,15 +6,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-
+import Project1 from '@/media/project/izysport.png'
+import Project2 from '@/media/project/superdestinations.png'
 import '@/styles/ProjectSwiper.css';
 
 // import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
+import Image from 'next/image';
 const Projects = () => {
     return (
         <div className={styles.projectdiv}>
-            <h1>My Projects</h1>
+            <h1>Few Projects</h1>
 
             <div className='projectswipercontainer'>
                 <Swiper
@@ -38,12 +40,14 @@ const Projects = () => {
                 >
                     <SwiperSlide>
                         <div className={styles.projectcard}>
-                            <h1>Project 1</h1>
+                            <Image src={Project1} alt="Project 1" quality={100} />
+                            {/* <h1>Project 1</h1> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={styles.projectcard}>
-                            <h1>Project 2</h1>
+                        <Image src={Project2} alt="Project 2" quality={100} />
+                            {/* <h1>Project 2</h1> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>

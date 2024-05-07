@@ -27,3 +27,6 @@
 .next/cache/webpack/server-development/2.pack.gz
 .next/cache/webpack/server-development/12.pack.gz
 .next/cache/webpack/server-development/11.pack.gz
+.next/app-build-manifest.json
+/.next
+/node_modules
