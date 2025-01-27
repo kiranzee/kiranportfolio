@@ -8,6 +8,7 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import Project1 from '@/media/project/izysport.png'
 import Project2 from '@/media/project/superdestinations.png'
+import Project3 from '@/media/project/travelbusinessfirst.png'
 import '@/styles/ProjectSwiper.css';
 
 // import required modules
@@ -39,20 +40,21 @@ const Projects = () => {
 
                 >
                     <SwiperSlide>
-                        <div className={styles.projectcard}>
-                            <Image src={Project1} alt="Project 1" quality={100} />
+                        <div className={styles.projectcard}><a href="https://izysports.com" target="_blank">
+                            <Image src={Project1} alt="Project 1" quality={100} /></a>
                             {/* <h1>Project 1</h1> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className={styles.projectcard}>
-                        <Image src={Project2} alt="Project 2" quality={100} />
+                        <div className={styles.projectcard}><a href="https://superdestinations.co.uk" target="_blank">
+                        <Image src={Project2} alt="Project 2" quality={100} /></a>
                             {/* <h1>Project 2</h1> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className={styles.projectcard}>
-                            <h1>Project 3</h1>
+                    <div className={styles.projectcard}><a href="https://travelbusinessfirst.co.uk" target="_blank">
+                        <Image src={Project3} alt="Project 3" quality={100} /></a>
+                            {/* <h1>Project 2</h1> */}
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
