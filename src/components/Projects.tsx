@@ -10,6 +10,7 @@ import Project1 from '@/media/project/izysport.png'
 import Project2 from '@/media/project/superdestinations.png'
 import Project3 from '@/media/project/travelbusinessfirst.png'
 import project4 from '@/media/project/thewhiteharthotel.png'
+import project5 from '@/media/project/theteam-itspark.png'
 import '@/styles/ProjectSwiper.css';
 
 // import required modules
@@ -65,7 +66,7 @@ const Projects = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={styles.projectcard}>
-                            <h1>Project 5</h1>
+                            <Image src={project5} alt="The Team IT Spark" quality={100} />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
