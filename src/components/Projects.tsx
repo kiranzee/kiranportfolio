@@ -60,7 +60,7 @@ const Projects = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className={styles.projectcard}>
-                            <Image src={Project4} alt="The White Hart Hotel" quality={100} />
+                            <Image src={project4} alt="The White Hart Hotel" quality={100} />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
